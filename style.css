@@ -8,7 +8,7 @@
 /*Adicionei a familia de fonte*/
 body {
   font-family: "Mukta", sans-serif;
-  padding: 20px;
+  padding: 60px;
 }
 
 div {
@@ -20,7 +20,7 @@ div {
 /*Titulo principal*/
 .title {
   color: white;
-  font-size: 80px;
+  font-size: 86px;
   font-weight: 700;
   text-align: center;
   grid-column: span 4;
@@ -31,7 +31,7 @@ div {
   display: grid;
   grid-template-columns: 1fr 1.5fr 1fr 1fr;
   /*gap: linha coluna*/
-  gap: 15px 16px;
+  gap: 15px 9px;
   max-width: 974px;
   margin: 0 auto;
 }
@@ -54,4 +54,16 @@ div {
   background-color: black;
   grid-column: 1 / -1;
   margin: 1px 0;
+}
+
+.author {
+  grid-column: 1 / -1;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 40px;
+  font-style: italic;
+}
+
+.author a {
+  color: black;
 }
