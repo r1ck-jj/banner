@@ -1,5 +1,5 @@
 * {
-  background-color: red;
+  background-color: rgba(217, 25, 31, 255);
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -13,7 +13,7 @@ body {
 
 div {
   font-size: 17px;
-  line-height: 1.1 ;
+  line-height: 1.1;
   margin-top: auto;
   margin-right: auto;
 }
@@ -35,7 +35,6 @@ div {
   gap: 30px 18px;
   max-width: 974px;
   margin: 0 auto;
-  padding: ;
 }
 
 .container div {
@@ -43,13 +42,11 @@ div {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
-  
 }
 
 .subtitle {
   font-size: 45px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 /*só Deus sabe como eu fiz isso*/
