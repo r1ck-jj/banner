@@ -17,10 +17,6 @@ div {
   margin-top: auto;
   margin-right: auto;
 }
-.date {
-  font-size: 45px;
-  font-weight: 600;
-}
 
 /*Titulo principal*/
 .title {
@@ -35,19 +31,31 @@ div {
 .container {
   display: grid;
   grid-template-columns: 1fr 1.5fr 1fr 1fr;
-  gap: 20px;
-  max-width: 1200px;
+  /*gap: linha coluna*/
+  gap: 30px 18px;
+  max-width: 974px;
   margin: 0 auto;
+  padding: ;
 }
 
 .container div {
-  border: 2px solid rgb(255, 217, 0);
+  /*border: 2px solid rgb(255, 217, 0);*/
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  
 }
 
 .subtitle {
   font-size: 45px;
-  font-weight: 600;
+  font-weight: 500;
+}
+
+/*só Deus sabe como eu fiz isso*/
+.black-line {
+  height: 2px;
+  background-color: black;
+  grid-column: 1 / -1;
+  margin: 1px 0;
 }
