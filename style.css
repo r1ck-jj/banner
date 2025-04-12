@@ -15,7 +15,6 @@ div {
   font-size: 17px;
   line-height: 1.1;
   margin-top: auto;
-  margin-right: auto;
 }
 
 /*Titulo principal*/
@@ -32,7 +31,7 @@ div {
   display: grid;
   grid-template-columns: 1fr 1.5fr 1fr 1fr;
   /*gap: linha coluna*/
-  gap: 30px 18px;
+  gap: 15px 16px;
   max-width: 974px;
   margin: 0 auto;
 }
