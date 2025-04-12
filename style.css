@@ -20,7 +20,7 @@ div {
 /*Titulo principal*/
 .title {
   color: white;
-  font-size: 86px;
+  font-size: clamp(25px, 7vw, 85px);
   font-weight: 700;
   text-align: center;
   grid-column: span 4;
